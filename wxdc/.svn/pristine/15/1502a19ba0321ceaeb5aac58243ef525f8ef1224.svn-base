@@ -1,0 +1,159 @@
+<!DOCTYPE html><!-- 订单评价 -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>上师大云餐厅</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7-swiper.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7-swipeout.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
+    <script type="text/javascript" src="lib/jquery.min.js?v=2.1.4"></script>
+</head>
+<body>
+<div class="page theme-blue" id="evaluate" style="background: #EEECE1">
+    <header class="bar bar-nav">
+        <a class="icon icon-left pull-left back"></a>
+        <h1 class="title">订单评价</h1>
+    </header>
+    <div class="content content-bg-no">
+        <div class="content-normal">
+            <div class="list-block media-list list-small">
+                <ul>
+                    <li>
+                        <a href="#" class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">订单号:<span>U5H8R6</span></div>
+                                    <div class="item-after">已取</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">餐厅:<span>香樟园餐厅</span></div>
+                                    <div class="item-after">
+                                        <select class="rating" name="rating" title="">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">脆皮鸡腿饭</div>
+                                    <div class="item-after">
+                                        <select class="rating" name="rating" title="">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="item-title-row">
+                                    <div class="item-title">香菇菜心</div>
+                                    <div class="item-after">
+                                        <select class="rating" name="rating" title="">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="item-title-row">
+                                    <div class="item-title">鸡蛋炒面</div>
+                                    <div class="item-after">
+                                        <select class="rating" name="rating" title="">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="list-block list-small media-list">
+                <ul>
+                    <li class="align-top">
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title label">评价内容</div>
+                                <div class="item-input">
+                                    <textarea></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content-normal">
+            <div class="list-block list-small">
+                <div class="weui_uploader">
+                    <div class="weui_uploader_bd">
+                        <ul class="weui_uploader_files">
+                            <li class="weui_uploader_file" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)"></li>
+                            <li class="weui_uploader_file" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)"></li>
+                            <li class="weui_uploader_file" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)"></li>
+                            <li class="weui_uploader_file weui_uploader_status" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)">
+                                <div class="weui_uploader_status_content">
+                                    <i class="fa fa-warning"></i>
+                                </div>
+                            </li>
+                            <li class="weui_uploader_file weui_uploader_status" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)">
+                                <div class="weui_uploader_status_content">50%</div>
+                            </li>
+                        </ul>
+                        <div class="weui_uploader_input_wrp">
+                            <input class="weui_uploader_input" type="file" accept="image/jpg,image/jpeg,image/png,image/gif" multiple="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-fixed"></div>
+    </div>
+    <!-- 工具栏 -->
+    <nav class="bar bar-tab">
+        <p class="buttons-row" style="margin: 0 0">
+            <a href="#" class="button button-fill button-dark button-big button-noradius">取消</a>
+            <a href="#" class="button button-fill button-dark button-big button-noradius">确定</a>
+            <a href="#" class="button button-fill button-dark button-big button-noradius">再来一单</a>
+        </p>
+    </nav>
+</div>
+<script type="text/javascript" src="lib/light7.js"></script>
+<script type="text/javascript" src="lib/light7-city-picker.js"></script>
+<script type="text/javascript" src="lib/light7-swiper.js"></script>
+<script type="text/javascript" src="lib/light7-swipeout.js"></script>
+<script type="text/javascript" src="lib/i18n/cn.js"></script>
+<script type="text/javascript" src="lib/jquery.barrating.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>

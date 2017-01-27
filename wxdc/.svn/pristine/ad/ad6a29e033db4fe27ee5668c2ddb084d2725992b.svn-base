@@ -1,0 +1,93 @@
+<!DOCTYPE html><!-- 订单备注 -->
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>上师大云餐厅</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7-swiper.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7-swipeout.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
+    <script type="text/javascript" src="lib/jquery.min.js?v=2.1.4"></script>
+</head>
+<body>
+<div class="page theme-blue" id="remark" style="background: #EEECE1">
+    <header class="bar bar-nav">
+        <a class="icon icon-left pull-left back"></a>
+        <h1 class="title">订单备注</h1>
+    </header>
+    <div class="content content-bg-no">
+        <div class="list-block list-small">
+            <ul>
+                <!-- Text inputs -->
+                <li>
+                    <div class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">取餐点</div>
+                            <div class="item-input">
+                                <input type="text" placeholder="上师大学生宿舍A栋">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">餐厅</div>
+                            <div class="item-input">
+                                <input type="text" placeholder="香樟园餐厅">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Date -->
+                <li>
+                    <div class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">预定时间</div>
+                            <div class="item-input">
+                                <input type="text" placeholder="2016-04-20 12:00" id="datetime-picker" readonly="readonly">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="list-block list-small">
+            <ul>
+                <li class="align-top">
+                    <div class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">其他描述</div>
+                            <div class="item-input">
+                                <textarea placeholder="..."></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <nav class="bar bar-tab">
+        <div class="pull-left" style="width:50%">
+            <a href="#" class="button button-big button-fill button-dark button-lg" onclick="alert(1);">取消</a>
+        </div>
+        <div class="pull-right" style="width:50%">
+            <a href="#" class="button button-big button-fill button-dark button-lg">确定</a>
+        </div>
+    </nav>
+</div>
+<script type="text/javascript" src="lib/light7.js"></script>
+<script type="text/javascript" src="lib/light7-swiper.js"></script>
+<script type="text/javascript" src="lib/light7-city-picker.js"></script>
+<script type="text/javascript" src="lib/light7-swipeout.js"></script>
+<script type="text/javascript" src="lib/i18n/cn.js"></script>
+<script type="text/javascript" src="js/common.js?v=20160621"></script>
+</body>
+</html>

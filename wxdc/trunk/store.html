@@ -1,0 +1,273 @@
+<!DOCTYPE html><!-- 商品列表 -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>上师大云餐厅</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7-swiper.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7-swipeout.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
+    <script type="text/javascript" src="lib/jquery.min.js?v=2.1.4"></script>
+    <!--<script type="text/javascript" src="lib/jquery.scrollTo-min.js"></script>-->
+</head>
+<body>
+<div class="page theme-blue" id="store">
+    <div class="content content-notop content-bottom">
+
+        <div class="content-normal">
+            <a id='store_back_' class="icon icon-left align-left"></a>
+            <div class="list-block media-list list-nomargin">
+                <ul>
+                    <li class="item-reverse">
+                        <a href="#" class="item-content" id="merchantInfo">
+                            <div class="item-media">
+                                <img src="images/1.jpg" alt="1" width="70">
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">教师食堂</div>
+                                    <div class="item-after"><span><small>¥</small>15</span>&nbsp;起送</div>
+                                </div>
+                                <div class="item-title-row">
+                                    <div class="item-subtitle">
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-empty"></i>
+                                    </div>
+                                    <div class="item-footer"><span>¥0</span>&nbsp;配送</div>
+                                </div>
+                                <div data-popover=".popover-links_" class="open-popover item-text item-date" >
+                                    <i class="fa fa-clock-o"></i>
+                                    <span>08:00</span>
+                                    <span>12:00</span>
+                                    <span>16:00</span>
+                                    <span>20:00</span>
+                                </div>
+                                <div class="item-text item-info">
+                                    <div>
+                                        <div class="icon-cheapen"></div>
+                                        <span>满100减20</span>
+                                    </div>
+                                    <div>
+                                        <div class="icon-sales"></div>
+                                        <span>扬州炒饭8折</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content-normal">
+            <div class="popover popover-links_" style="width: 80% !important;">
+                <div class="popover-angle"></div>
+                <div class="popover-inner">
+                    <div class="list-block list-small">
+                        <ul id="store_list_time">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons-tab">
+                <a href="#tab1" class="tab-link button active">商品</a>
+                <a href="#tab2" class="tab-link button">评价</a>
+                <a href="#tab3" class="tab-link button">商家</a>
+            </div>
+            <div class="tabs">
+                <div id="tab1" class="tab active">
+                    <div class="content-normal">
+                        <div class="box">
+                            <div class="box-menu">
+                                <div style="position: fiexd !important;">
+                                    <ul id="storeMenu">
+                                        <li>
+                                            <a href="#" class="active"><i class="fa fa-star fa-full"></i><span>好评榜</span></a> </li>
+                                        <li>
+                                            <a href="#"><span>十大招牌推荐</span></a> </li>
+                                        <li>
+                                            <a href="#"><span>特色盆菜</span></a> </li>
+                                        <li>
+                                            <a href="#"><span>港式腊味煲仔饭</span></a> </li>
+                                        <li>
+                                            <a href="#"><span>港式点心Dim Sim</span></a> </li>
+                                        <li>
+                                            <a href="#"><span>烧味四大天王</span></a> </li>
+                                        <li>
+                                            <a href="#"><span>靓汤粉面粥</span></a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="box-content">
+                                <div id="storeList">
+                                    <div class="store-list-title">十大招牌推荐</div>
+                                    <div class="list-block media-list list-nomargin list-noborder">
+                                        <ul id="goodsInfo" class="tabs">
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="store_my_evaluate">
+                    <form id="store_evaluate_form">
+                        <input type="hidden" name="pageNo" value=""/>
+                        <input type="hidden" name="sort" value="-createTime"/>
+                    </form>
+                </div>
+
+                <div id="tab2" class="tab">
+
+                    <div style="position:relative;left:0;right:0;margin:0 auto;width: 100%;height: 20rem;">
+                    <div class="infinite-scroll content" data-distance="100">
+                        <input type="hidden" name="totalPage" value=""/>
+                        <div id="evaluate">
+
+                        </div>
+                        <div class="infinite-scroll-preloader">
+                            <div class="preloader"></div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div id="tab3" class="tab">
+                    <div class="content-normal">
+                        <div class="list-block media-list list-small" style="position: relative !important;">
+                            <ul>
+                                <li>
+                                    <a href="#" class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title-row">
+                                                <div class="item-title">餐厅:</div>
+                                                <div id="store_title" class="item-after"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title-row">
+                                                <div class="item-title">星级:</div>
+                                                <div id="store_star" class="item-after"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title-row">
+                                                <div class="item-title">售卖时间:</div>
+                                                <div id="store_time" class="item-after"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title-row">
+                                                <div class="item-title">创建时间:</div>
+                                                <div id="create_time" class="item-after"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title-row">
+                                                <div class="item-title">商户地址:</div>
+                                                <div id="store_addr" class="item-after"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title-row">
+                                                <div class="item-title">商家描述:</div>
+                                            </div>
+                                            <div class="item-title-row">
+                                                <div id="store_desc" class="item-title"
+                                                     style="word-break: normal;
+                                                             width: auto;
+                                                            white-space: pre-wrap;
+                                                            word-wrap: break-word;
+                                                            overflow: hidden;
+                                                            font-size: .7rem !important;
+                                                            line-height: 1.4rem;
+                                                            color: #999;
+                                                            ">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 页面修正 -->
+        <div class="content-fixed"></div>
+    </div>
+
+    <div class="shadowpanel"></div>
+    <div class="store-cart">
+        <div class="store-list-title">
+            <span style="display: inline-block;">我的购物</span>
+            <span class="icon icon-remove pull-right" id="clear_cart">清空购物车</span>
+        </div>
+        <div class="list-block media-list list-nomargin list-noborder">
+        <ul id="storeCart">
+
+        </ul>
+
+        </div>
+    </div>
+
+    <nav class="bar bar-tab bar_cart">
+        <div class="pull-left">
+            <a href="#" class="cart">
+                <i class="fa fa-shopping-cart"></i>
+                <span><small>¥</small><span id="totalCash">0</span></span>
+            </a>
+            <p id="totalNum">0</p>
+        </div>
+        <div class="pull-right">
+            <a id="pay" class="button button-fill button-success button-big button-lg bank" href="payment.html">去结算</a>
+        </div>
+    </nav>
+</div>
+<script type="text/javascript" src="lib/light7.js"></script>
+<script type="text/javascript" src="lib/light7-city-picker.js"></script>
+<script type="text/javascript" src="lib/light7-swiper.js"></script>
+<script type="text/javascript" src="lib/light7-swipeout.js"></script>
+<script type="text/javascript" src="lib/i18n/cn.js"></script>
+<script type="text/javascript" src="lib/jquery.barrating.js"></script>
+<script type="text/javascript" src="lib/storage.js"></script>
+<script type="text/javascript" src="js/config.js"></script>
+<script type="text/javascript" src="js/network.js"></script>
+<script type="text/javascript" src="js/template.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="lib/jquery.form.js"></script>
+
+</body>
+</html>

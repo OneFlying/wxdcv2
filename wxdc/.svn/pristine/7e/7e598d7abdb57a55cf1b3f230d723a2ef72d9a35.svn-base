@@ -1,0 +1,71 @@
+<!DOCTYPE html><!-- 我的资料 -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>上师大云餐厅</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7-swiper.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7-swipeout.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
+    <script type="text/javascript" src="lib/jquery.min.js?v=2.1.4"></script>
+</head>
+<body>
+<div class="page theme-blue" id="infomation" style="background: #EEECE1">
+    <header class="bar bar-nav">
+        <a class="icon icon-left pull-left back"></a>
+        <h1 class="title">我的资料</h1>
+    </header>
+    <div class="content content-bg-no">
+        <div class="list-block list-small">
+            <ul>
+                <li>
+                    <a href="#" class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title">我的会员号</div>
+                            <div class="item-after">U89098</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="editname.html" class="item-content item-link">
+                        <div class="item-inner">
+                            <div class="item-title">我的昵称</div>
+                            <div class="item-after">小丸子</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="editphone.html" class="item-content item-link">
+                        <div class="item-inner">
+                            <div class="item-title">我的手机</div>
+                            <div class="item-after">158****9852</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="editpass.html" class="item-content item-link">
+                        <div class="item-inner">
+                            <div class="item-title">我的会员密码</div>
+                            <div class="item-after">修改</div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="lib/light7.js"></script>
+<script type="text/javascript" src="lib/light7-city-picker.js"></script>
+<script type="text/javascript" src="lib/light7-swiper.js"></script>
+<script type="text/javascript" src="lib/light7-swipeout.js"></script>
+<script type="text/javascript" src="lib/i18n/cn.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>

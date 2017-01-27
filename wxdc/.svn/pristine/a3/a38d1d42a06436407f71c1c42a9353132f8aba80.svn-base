@@ -1,0 +1,292 @@
+<!DOCTYPE html><!-- 商家列表 -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>上师大云餐厅</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7-swiper.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7-swipeout.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
+    <script type="text/javascript" src="lib/jquery.min.js?v=2.1.4"></script>
+</head>
+<body>
+<div class="page theme-blue" id="main">
+    <!-- 标题栏 -->
+    <header class="bar bar-nav">
+        <a class="icon icon-left pull-left back"></a>
+        <a class="icon icon-search pull-right" href="#"></a>
+        <h1 class="title">
+            <i class="fa fa-map-marker fa-fw fa-fg"></i>
+            <span>上师大学生宿舍A栋</span>
+            <i class="icon icon-right icon-small"></i>
+        </h1>
+    </header>
+    <div class="bar bar-header-secondary">
+        <div class="bar-time">
+            <i class="fa fa-clock-o fa-fw"></i>
+            <span>2016年3月22日 12 : 30</span>
+            <i class="icon icon-right icon-small"></i>
+        </div>
+    </div>
+    <div class="bar bar-header-thirdary">
+        <p class="links-row">
+            <a href="#" class="link open-popover" data-popover=".popover-link1">分类&nbsp;&nbsp;<i class="fa fa-caret-down"></i> </a>
+            <a href="#" class="link open-popover" data-popover=".popover-link2">排序&nbsp;&nbsp;<i class="fa fa-caret-down"></i> </a>
+            <a href="#" class="link open-popover" data-popover=".popover-link3">筛选&nbsp;&nbsp;<i class="fa fa-caret-down"></i> </a>
+        </p>
+    </div>
+    <div class="content" style="top: 5.5rem">
+        <div class="content-normal">
+            <div class="list-block media-list list-nomargin">
+                <ul>
+                    <li class="align-top">
+                        <a href="store.html" class="item-content">
+                            <div class="item-media">
+                                <img src="images/1.jpg" alt="1" width="70">
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">教师食堂</div>
+                                    <div class="item-after"><span><small>¥</small>15</span>&nbsp;起送</div>
+                                </div>
+                                <div class="item-title-row">
+                                    <div class="item-subtitle">
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-empty"></i>
+                                    </div>
+                                    <div class="item-footer"><span>¥0</span>&nbsp;配送</div>
+                                </div>
+                                <div class="item-text item-date">
+                                    <i class="fa fa-clock-o"></i>
+                                    <span>08:00</span>
+                                    <span>12:00</span>
+                                    <span>16:00</span>
+                                    <span>20:00</span>
+                                </div>
+                                <div class="item-text item-info">
+                                    <div>
+                                        <div class="icon-cheapen"></div>
+                                        <span>满100减20</span>
+                                    </div>
+                                    <div>
+                                        <div class="icon-sales"></div>
+                                        <span>扬州炒饭8折</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="align-top">
+                        <a href="store.html" class="item-content">
+                            <div class="item-media">
+                                <img src="images/1.jpg" alt="1" width="70">
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">西部食堂</div>
+                                    <div class="item-after"><span><small>¥</small>15</span>&nbsp;起送</div>
+                                </div>
+                                <div class="item-title-row">
+                                    <div class="item-subtitle">
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-empty"></i>
+                                    </div>
+                                    <div class="item-footer"><span>¥0</span>&nbsp;配送</div>
+                                </div>
+                                <div class="item-text item-date">
+                                    <i class="fa fa-clock-o"></i>
+                                    <span>08:00</span>
+                                    <span>12:00</span>
+                                    <span>16:00</span>
+                                    <span>20:00</span>
+                                </div>
+                                <div class="item-text item-info">
+                                    <div>
+                                        <div class="icon-cheapen"></div>
+                                        <span>满100减20</span>
+                                    </div>
+                                    <div>
+                                        <div class="icon-sales"></div>
+                                        <span>扬州炒饭8折</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="align-top">
+                        <a href="store.html" class="item-content">
+                            <div class="item-media">
+                                <img src="images/1.jpg" alt="1" width="70">
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">东部食堂</div>
+                                    <div class="item-after"><span><small>¥</small>15</span>&nbsp;起送</div>
+                                </div>
+                                <div class="item-title-row">
+                                    <div class="item-subtitle">
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-empty"></i>
+                                    </div>
+                                    <div class="item-footer"><span>¥0</span>&nbsp;配送</div>
+                                </div>
+                                <div class="item-text item-date">
+                                    <i class="fa fa-clock-o"></i>
+                                    <span>08:00</span>
+                                    <span>12:00</span>
+                                    <span>16:00</span>
+                                    <span>20:00</span>
+                                </div>
+                                <div class="item-text item-info">
+                                    <div>
+                                        <div class="icon-cheapen"></div>
+                                        <span>满100减20</span>
+                                    </div>
+                                    <div>
+                                        <div class="icon-sales"></div>
+                                        <span>扬州炒饭8折</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="align-top">
+                        <a href="store.html" class="item-content">
+                            <div class="item-media">
+                                <img src="images/1.jpg" alt="1" width="70">
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">香樟园食堂</div>
+                                    <div class="item-after"><span><small>¥</small>15</span>&nbsp;起送</div>
+                                </div>
+                                <div class="item-title-row">
+                                    <div class="item-subtitle">
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-empty"></i>
+                                    </div>
+                                    <div class="item-footer"><span>¥0</span>&nbsp;配送</div>
+                                </div>
+                                <div class="item-text item-date">
+                                    <i class="fa fa-clock-o"></i>
+                                    <span>08:00</span>
+                                    <span>12:00</span>
+                                    <span>16:00</span>
+                                    <span>20:00</span>
+                                </div>
+                                <div class="item-text item-info">
+                                    <div>
+                                        <div class="icon-cheapen"></div>
+                                        <span>满100减20</span>
+                                    </div>
+                                    <div>
+                                        <div class="icon-sales"></div>
+                                        <span>扬州炒饭8折</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 分类弹出层 -->
+<div class="popover popover-link1">
+    <div class="popover-angle"></div>
+    <div class="popover-inner">
+        <div class="list-block">
+            <ul>
+                <li><a href="#" class="list-button item-link">早餐</a></li>
+                <li><a href="#" class="list-button item-link">午餐</a></li>
+                <li><a href="#" class="list-button item-link">晚餐</a></li>
+                <li><a href="#" class="list-button item-link">夜宵</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- 排序弹出层 -->
+<div class="popover popover-link2">
+    <div class="popover-angle"></div>
+    <div class="popover-inner">
+        <div class="list-block">
+            <ul>
+                <li><a href="#" class="list-button item-link">销量</a></li>
+                <li><a href="#" class="list-button item-link">地理位置</a></li>
+                <li><a href="#" class="list-button item-link">商户等级</a></li>
+                <li><a href="#" class="list-button item-link">创建时间</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- 筛选弹出层 -->
+<div class="popover popover-link3">
+    <div class="popover-angle"></div>
+    <div class="popover-inner">
+        <div class="list-block list-small">
+            <ul>
+                <li>
+                    <div class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">条件1</div>
+                            <div class="item-input">
+                                <input type="text" placeholder="条件1">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">条件2</div>
+                            <div class="item-input">
+                                <input type="text" placeholder="条件2">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title label">条件3</div>
+                            <div class="item-input">
+                                <input type="text" placeholder="条件3">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="content-normal">
+            <a href="#" class="button button-big button-fill button-success">确定</a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="lib/light7.js"></script>
+<script type="text/javascript" src="lib/light7-city-picker.js"></script>
+<script type="text/javascript" src="lib/light7-swiper.js"></script>
+<script type="text/javascript" src="lib/light7-swipeout.js"></script>
+<script type="text/javascript" src="lib/i18n/cn.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>

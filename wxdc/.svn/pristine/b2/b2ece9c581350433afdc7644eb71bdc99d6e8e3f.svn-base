@@ -1,0 +1,139 @@
+<!DOCTYPE html><!-- 商品清单 -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>上师大云餐厅</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7-swiper.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7-swipeout.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
+    <script type="text/javascript" src="lib/jquery.min.js?v=2.1.4"></script>
+</head>
+<body>
+<div class="page theme-blue" id="inventory">
+    <header class="bar bar-nav">
+        <a class="icon icon-left pull-left back"></a>
+        <h1 class="title">商品清单</h1>
+    </header>
+    <div class="bar bar-header-secondary">
+        <span>上师大香樟园食堂</span>
+    </div>
+    <div class="content content-bg-no">
+        <div class="content-normal">
+            <div class="list-block media-list list-nomargin list-noborder">
+                <ul>
+                    <li class="align-top">
+                        <a href="detail.html" class="item-content item-store">
+                            <div class="item-media">
+                                <img src="images/1.jpg" alt="1" width="40">
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">一哥仙居扒鸡饭</div>
+                                </div>
+                                <div class="item-title-row">
+                                    <div class="item-subtitle">
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-empty"></i>
+                                    </div>
+                                </div>
+                                <div class="item-title-row item-op">
+                                    <div class="item-subtitle"><small>¥</small>38</div>
+                                    <div class="item-footer">
+                                        <span class="prev"><i class="fa fa-minus"></i> </span>
+                                        <span class="num">1</span>
+                                        <span class="next"><i class="fa fa-plus"></i> </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="align-top">
+                        <a href="detail.html" class="item-content item-store">
+                            <div class="item-media">
+                                <img src="images/1.jpg" alt="1" width="40">
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">宫保鸡丁</div>
+                                </div>
+                                <div class="item-title-row">
+                                    <div class="item-subtitle">
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-empty"></i>
+                                    </div>
+                                </div>
+                                <div class="item-title-row item-op">
+                                    <div class="item-subtitle"><small>¥</small>38</div>
+                                    <div class="item-footer">
+                                        <span class="prev"><i class="fa fa-minus"></i> </span>
+                                        <span class="num">1</span>
+                                        <span class="next"><i class="fa fa-plus"></i> </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="align-top">
+                        <a href="detail.html" class="item-content item-store">
+                            <div class="item-media">
+                                <img src="images/1.jpg" alt="1" width="40">
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">秘制煎饼牛排套餐</div>
+                                    <div class="item-after">
+                                        <span><i class="fa fa-caret-down"></i></span>
+                                    </div>
+                                </div>
+                                <div class="item-title-row">
+                                    <div class="item-subtitle">
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-full"></i>
+                                        <i class="fa fa-star fa-empty"></i>
+                                    </div>
+                                </div>
+                                <div class="item-title-row item-op">
+                                    <div class="item-subtitle"><small>¥</small>38</div>
+                                    <div class="item-footer">
+                                        <span class="prev"><i class="fa fa-minus"></i> </span>
+                                        <span class="num">1</span>
+                                        <span class="next"><i class="fa fa-plus"></i> </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content-fixed"></div>
+    </div>
+    <!-- 工具栏 -->
+    <nav class="bar bar-tab">
+        <a href="store.html" class="button button-fill button-big button-lg button-dark">添加</a>
+    </nav>
+</div>
+<script type="text/javascript" src="lib/light7.js"></script>
+<script type="text/javascript" src="lib/light7-city-picker.js"></script>
+<script type="text/javascript" src="lib/light7-swiper.js"></script>
+<script type="text/javascript" src="lib/light7-swipeout.js"></script>
+<script type="text/javascript" src="lib/i18n/cn.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>

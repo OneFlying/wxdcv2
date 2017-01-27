@@ -1,0 +1,198 @@
+<!DOCTYPE html><!-- 确认订单 -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>上师大云餐厅</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7-swiper.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7-swipeout.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
+    <script type="text/javascript" src="lib/jquery.min.js?v=2.1.4"></script>
+</head>
+<body>
+<div class="page theme-blue" id="payment" style="background: #EEECE1">
+    <header class="bar bar-nav">
+        <a class="icon icon-left pull-left back"></a>
+        <h1 class="title">确认订单</h1>
+    </header>
+    <div class="content content-bg-no">
+        <div class="content-normal">
+            <div class="list-block list-nomargin media-list list-noborder">
+                <ul>
+                    <li>
+                        <a href="#" class="item-content item-link">
+                            <div class="item-media">
+                                <i class="fa fa-map-marker fa-2x"></i> </div>
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">刘玉玲<span>女士&nbsp;15821259852</span></div>
+                                </div>
+                                <div class="item-title-row">
+                                    <div class="item-subtitle">上师大学生宿舍A栋</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="list-block media-list list-small">
+            <ul>
+                <li>
+                    <a href="#" class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title-row">
+                                <div class="item-title">预计送达时间</div>
+                                <div class="item-after">2016年4月2日 12:00</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title-row">
+                                <div class="item-title">商家</div>
+                                <div class="item-after">上师大香樟园餐厅</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="inventory.html" class="item-content item-link">
+                        <div class="item-inner">
+                            <div class="item-title-row">
+                                <div class="item-title">商品清单</div>
+                                <div class="item-after">共三个菜品&nbsp;¥15.5</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="remark.html" class="item-content item-link">
+                        <div class="item-inner">
+                            <div class="item-title-row">
+                                <div class="item-title">订单备注</div>
+                                <div class="item-after">口味，偏好等其他需求</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="list-block media-list list-small">
+            <ul>
+                <li>
+                    <a href="grade.html" class="item-content item-link">
+                        <div class="item-inner">
+                            <div class="item-title-row">
+                                <div class="item-title">会员等级</div>
+                                <div class="item-after">您是3级会员</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="credit.html" class="item-content item-link">
+                        <div class="item-inner">
+                            <div class="item-title-row">
+                                <div class="item-title">会员积分</div>
+                                <div class="item-after">您有1023积分</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="coupon.html" class="item-content item-link">
+                        <div class="item-inner">
+                            <div class="item-title-row">
+                                <div class="item-title">优惠券</div>
+                                <div class="item-after">您有5张优惠券</div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="list-block media-list list-small">
+            <ul>
+                <li>
+                    <a href="#" class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title-row">
+                                <div class="item-title">会员打折</div>
+                                <div class="item-after">8.8折&nbsp;<span>- ¥2.5</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title-row">
+                                <div class="item-title">积分换购</div>
+                                <div class="item-after">您用了100积分&nbsp;<span>- ¥1</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title-row">
+                                <div class="item-title">优惠券使用</div>
+                                <div class="item-after">您使用了2张&nbsp;<span>- ¥3</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title-row">
+                                <div class="item-title">迎51满10减1</div>
+                                <div class="item-after"><span>- ¥1</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title-row">
+                                <div class="item-title">&nbsp;</div>
+                                <div class="item-after"><span>- 7.5</span></div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content-fixed"></div>
+    </div>
+    <nav class="bar bar-tab">
+        <div class="pull-left">
+            <a href="#" class="cart">
+                <span>总计 ¥<span>10</span></span>
+            </a>
+        </div>
+        <div class="pull-right">
+            <a class="button button-fill button-success button-big button-lg" href="#">确认下单</a>
+        </div>
+    </nav>
+</div>
+<script type="text/javascript" src="lib/light7.js"></script>
+<script type="text/javascript" src="lib/light7-city-picker.js"></script>
+<script type="text/javascript" src="lib/light7-swiper.js"></script>
+<script type="text/javascript" src="lib/light7-swipeout.js"></script>
+<script type="text/javascript" src="lib/i18n/cn.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>

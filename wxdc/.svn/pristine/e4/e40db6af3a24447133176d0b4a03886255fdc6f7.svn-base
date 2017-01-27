@@ -1,0 +1,101 @@
+<!DOCTYPE html><!-- 我的评价 -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>上师大云餐厅</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7-swiper.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7-swipeout.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
+    <script type="text/javascript" src="lib/jquery.min.js?v=2.1.4"></script>
+</head>
+<body>
+<div class="page theme-blue" id="myevaluate" style="background: #EEECE1">
+    <header class="bar bar-nav">
+        <a class="icon icon-left pull-left back"></a>
+        <h1 class="title">我的评价</h1>
+        <a class="button button-link button-nav pull-right create-actions" href="#">
+            <span class="fa fa-filter"></span>筛选
+        </a>
+    </header>
+    <div class="content content-bg-no">
+        <div class="card">
+            <div class="card-header">
+                <div class="pull-left">
+                    上师大西部餐厅
+                </div>
+            </div>
+            <div class="card-content">
+                <div class="list-block media-list">
+                    <ul class="align-top">
+                        <li class="item-content">
+                            <div class="item-media">
+                                <img src="images/1.jpg" alt="1" width="70">
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-subtitle">
+                                    <i class="fa fa-star fa-full"></i>
+                                    <i class="fa fa-star fa-full"></i>
+                                    <i class="fa fa-star fa-full"></i>
+                                </div>
+                                <div class="item-subtitle">描述信息第1条</div>
+                                <div class="item-subtitle">描述信息第2条</div>
+                                <div class="item-subtitle">描述信息第3条</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-footer">
+                <span>评价日期：2016年3月1日</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <div class="pull-left">
+                    上师大香樟园餐厅
+                </div>
+            </div>
+            <div class="card-content">
+                <div class="list-block media-list">
+                    <ul class="align-top">
+                        <li class="item-content">
+                            <div class="item-media">
+                                <img src="images/1.jpg" alt="1" width="70">
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-subtitle">
+                                    <i class="fa fa-star fa-full"></i>
+                                    <i class="fa fa-star fa-full"></i>
+                                    <i class="fa fa-star fa-full"></i>
+                                    <i class="fa fa-star fa-full"></i>
+                                </div>
+                                <div class="item-subtitle">描述信息第1条</div>
+                                <div class="item-subtitle">描述信息第2条</div>
+                                <div class="item-subtitle">描述信息第3条</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-footer">
+                <span>评价日期：2016年3月1日</span>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="lib/light7.js"></script>
+<script type="text/javascript" src="lib/light7-city-picker.js"></script>
+<script type="text/javascript" src="lib/light7-swiper.js"></script>
+<script type="text/javascript" src="lib/light7-swipeout.js"></script>
+<script type="text/javascript" src="lib/i18n/cn.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>

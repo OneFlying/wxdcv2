@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>上师大云餐厅</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7-swiper.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7-swipeout.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
+    <script type="text/javascript" src="lib/jquery.min.js?v=2.1.4"></script>
+    <style type="text/css">
+        .s-input {
+            display: block;
+            width: 100%;
+            margin: .5rem 0;
+            border: 1px solid #dddddd;
+            padding: .6rem .25rem;
+            -webkit-border-radius: .25rem;
+            -moz-border-radius: .25rem;
+            border-radius: .25rem;
+            outline: none;
+            -webkit-appearance: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+    </style>
+</head>
+<body>
+<div class="page theme-blue" id="qucan" style="background: #EEECE1">
+    <header class="bar bar-nav">
+        <a href="order.html" class="icon icon-left pull-left"></a>
+        <h1 class="title">取餐</h1>
+    </header>
+    <div class="content content-bg-no">
+        <div class="content-block">
+            <!--<div class="content-block-title">-->
+                <!--未识别<br>请重新扫描-->
+            <!--</div>-->
+            <div style="text-align: center;font-size: 1rem;color: #777777;">
+                <span>目前仅支持iphone系列手机扫描</span>
+            </div>
+            <div>
+                <a id="saoCode" class="button button-fill button-success button-big">扫描取餐</a>
+            </div>
+            <div>
+                <input type="text" name="gianCode" placeholder="取餐码" class="s-input" />
+            </div>
+            <div>
+                <a id="getCode" class="button button-fill button-success button-big">取餐码取餐</a>
+            </div>
+            <div style="text-align: left;font-size:.8rem;color: red;">
+                <span>注意:请确认在取餐柜前点击取餐按钮</span>
+            </div>
+            <div class="list-block media-list list-small">
+                <ul>
+                    <li>
+                        <a href="#" class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">订单号:</div>
+                                    <div id="qucan_orderId" class="iteme-after" style="color:#777;"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">格子位置:</div>
+                                    <div id="qucan_location" class="iteme-after" style="color:#777;"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="lib/light7.js"></script>
+<script type="text/javascript" src="lib/light7-city-picker.js"></script>
+<script type="text/javascript" src="lib/light7-swiper.js"></script>
+<script type="text/javascript" src="lib/light7-swipeout.js"></script>
+<script type="text/javascript" src="lib/i18n/cn.js"></script>
+<script type="text/javascript" src="lib/jquery.barrating.js"></script>
+<script type="text/javascript" src="lib/storage.js"></script>
+<script type="text/javascript" src="js/config.js"></script>
+<script type="text/javascript" src="js/network.js"></script>
+<script type="text/javascript" src="js/template.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script type="text/javascript" src="http://211.149.170.248/api/v1/wechat/jssdk_signature"></script>
+<script type="text/javascript">
+
+    $.router.reloadPage();
+
+//    function GetQueryString(name) {
+//        var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+//        var r = window.location.search.substr(1).match(reg);
+//        if(r != null)
+//            return  decodeURIComponent(r[2]);
+//        return null;
+//    }
+//    console.log(jssdk_signature);
+//    jssdk_signature.debug=true;
+
+    //var order = JSON.parse(decodeURIComponent(GetQueryString("param")));
+
+//    console.log(order);
+//    jssdk_signature.jsApiList = [ "scanQRCode" ];
+//
+//    wx.config(jssdk_signature);
+//
+//
+//    wx.error(function(res){
+//        $.alert("error");
+//    });
+//    $("#saoCode").click(function(e){
+//
+//        qrCode();
+////        wx.scanQRCode({
+////            desc : 'scanQRCode desc',
+////            needResult : 1,
+////            scanType : [ "qrCode", "barCode" ],
+////            success : function(res) {
+////
+////                //$("input[name=gianCode]").val(res.resultStr);
+////            }
+////        });
+//
+//    });
+
+    /**
+     * 取餐码取餐
+     */
+//    $("#getCode").click(function(e){
+//
+//        var code = $("input[name=gianCode]").val();
+//        if(order.gainCode != code){
+//            $.alert("取餐码不正确!");
+//        }else{
+//
+//            $.ajax({
+//
+//                url: config.url + '/v1/res/box/pick/'+code,
+//                type: 'GET',
+//                dataType: 'json',
+//                beforeSend: function (request) {
+//                    request.setRequestHeader("Authorization", config.token);
+//                },
+//                success: function (data) {
+//
+//                    if(data.status == 'true'){
+//                        $.alert('取餐成功');
+//                    }else{
+//                        $.alert(data.message);
+//                    }
+//
+//                },
+//                error : function(data){
+//                    console.log("ajax error");
+//                }
+//
+//            });
+//
+//        }
+//
+//    });
+
+
+
+</script>
+</body>
+</html>

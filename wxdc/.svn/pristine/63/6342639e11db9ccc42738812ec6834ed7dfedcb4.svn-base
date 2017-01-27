@@ -1,0 +1,84 @@
+<!DOCTYPE html><!-- 配送员端 -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>上师大云餐厅</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="../css/font-awesome.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="../css/light7.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="../css/light7-swiper.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="../css/light7-swipeout.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="../css/main.css" type="text/css" media="screen">
+    <script type="text/javascript" src="../lib/jquery.min.js?v=2.1.4"></script>
+</head>
+<body>
+<div class="page theme-blue" id="delivery" style="background: #EEECE1">
+    <header class="bar bar-nav bar-dark">
+        <h1 class="title">上师大云味配送系统</h1>
+    </header>
+    <div class="bar bar-header-secondary bar-dark">
+        <div class="pull-right">
+            <span><i class="fa fa-user"></i>配送员：阿大</span>
+        </div>
+    </div>
+    <div class="content content-bg-no">
+        <div class="content-normal">
+            <div class="list-block list-small">
+                <ul>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title label">选择餐厅</div>
+                                <div class="item-input">
+                                    <input type="text" placeholder="选择餐厅" id="picker" readonly="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title label">选择时间</div>
+                                <div class="item-input">
+                                    <input type="text" placeholder="选择时间" id="timepicker" readonly="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title label">选择取餐点</div>
+                                <div class="item-input">
+                                    <input type="text" placeholder="选择取餐点" id="pospicker" readonly="">
+                                </div>
+                                <div class="item-after">
+                                    <a href="#" class="button button-success button-fill">扫描</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bar bar-tab">
+        <p class="buttons-row" style="margin: 0 0;">
+            <a href="#" class="button button-fill button-dark button-big button-noradius" id="btnLeft">清柜</a>
+            <a href="#" class="button button-fill button-dark button-big button-noradius" id="btnRight">补货</a>
+        </p>
+    </div>
+</div>
+<script type="text/javascript" src="../lib/light7.js"></script>
+<script type="text/javascript" src="../lib/light7-city-picker.js"></script>
+<script type="text/javascript" src="../lib/light7-swiper.js"></script>
+<script type="text/javascript" src="../lib/light7-swipeout.js"></script>
+<script type="text/javascript" src="../lib/i18n/cn.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html><!-- 我的地盘 -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>上师大云餐厅</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7-swiper.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7-swipeout.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
+    <script type="text/javascript" src="lib/jquery.min.js?v=2.1.4"></script>
+</head>
+<body>
+<div class="page theme-blue" id="my" style="background: #EEECE1">
+    <header class="bar bar-nav">
+        <a class="icon icon-left pull-left" href="index.html"></a>
+        <h1 class="title">我的地盘</h1>
+    </header>
+    <div class="content content-bg-no">
+        <div class="content-normal">
+            <div class="row content-white">
+                <div class="col-50">
+                    <h2>2</h2>
+                    <div>等级</div>
+                </div>
+                <div class="col-50">
+                    <h2>1260</h2>
+                    <div>积分</div>
+                </div>
+            </div>
+        </div>
+        <div class="list-block list-small list-setting">
+            <ul>
+                <li >
+                    <a class="item-content item-link" href="activity.html">
+                        <div class="item-media"><i class="fa fa-credit-card"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title">近期活动</div>
+                            <div class="item-after"><span class="badge">5</span></div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="infomation.html" class="item-content item-link">
+                        <div class="item-media"><i class="fa fa-user"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title">我的资料</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="myconpon.html" class="item-content item-link">
+                        <div class="item-media"><i class="fa fa-ticket"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title">我的优惠券</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="myorder.html" class="item-content item-link">
+                        <div class="item-media"><i class="fa fa-first-order"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title">我的历史订单</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="setting.html" class="item-content item-link">
+                        <div class="item-media"><i class="fa fa-gear"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title">我的设置</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="myevaluate.html" class="item-content item-link">
+                        <div class="item-media"><i class="fa fa-comment"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title">我的评价</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="protocol.html" class="item-content item-link">
+                        <div class="item-media"><i class="fa fa-book"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title">用户协议</div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="mycomplain.html" class="item-content item-link">
+                        <div class="item-media"><i class="fa fa-thumbs-down"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title">我的投诉</div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 工具栏 -->
+    <nav class="bar bar-tab">
+        <a class="tab-item" href="index.html">
+            <span class="icon icon-home"></span>
+            <span class="tab-label">首页</span>
+        </a>
+        <a class="tab-item" href="order.html">
+            <span class="icon icon-cart"></span>
+            <span class="tab-label">订单</span>
+        </a>
+        <a class="tab-item active" href="#">
+            <span class="icon icon-me"></span>
+            <span class="tab-label">我的</span>
+        </a>
+    </nav>
+</div>
+<script type="text/javascript" src="lib/light7.js"></script>
+<script type="text/javascript" src="lib/light7-city-picker.js"></script>
+<script type="text/javascript" src="lib/light7-swiper.js"></script>
+<script type="text/javascript" src="lib/light7-swipeout.js"></script>
+<script type="text/javascript" src="lib/i18n/cn.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>

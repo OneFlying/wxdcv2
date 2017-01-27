@@ -1,0 +1,191 @@
+<!DOCTYPE html><!-- 订单详细 -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>上师大云餐厅</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7-swiper.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/light7-swipeout.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
+    <script type="text/javascript" src="lib/jquery.min.js?v=2.1.4"></script>
+</head>
+<body>
+<div class="page theme-blue" id="orderdetail" style="background: #EEECE1">
+    <header class="bar bar-nav">
+        <a class="icon icon-left pull-left back"></a>
+        <h1 class="title">订单详细</h1>
+    </header>
+    <div class="content content-bg-no">
+        <div class="content-normal">
+            <div class="list-block media-list list-small">
+                <ul>
+                    <li>
+                        <a href="#" class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">订单号:<span>U5H8R6</span></div>
+                                    <div class="item-after">已取</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">取餐点</div>
+                                    <div class="item-after">上师大学生宿舍A栋</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">商家</div>
+                                    <div class="item-after">上师大香樟园餐厅</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">预定时间</div>
+                                    <div class="item-after">2016年3月25日</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="list-block media-list list-small">
+                <ul>
+                    <li>
+                        <a href="#" class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">脆皮鸡腿饭</div>
+                                    <div class="item-after">X1&nbsp;&nbsp;<span>¥15.5</span></div>
+                                </div>
+                                <div class="item-title-row">
+                                    <div class="item-title">香菇菜心</div>
+                                    <div class="item-after">X1&nbsp;&nbsp;<span>¥10.5</span></div>
+                                </div>
+                                <div class="item-title-row">
+                                    <div class="item-title">鸡蛋炒面</div>
+                                    <div class="item-after">X1&nbsp;&nbsp;<span>¥12</span></div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">包装费</div>
+                                    <div class="item-after">X3&nbsp;&nbsp;<span>¥3</span></div>
+                                </div>
+                                <div class="item-title-row">
+                                    <div class="item-title">配送费</div>
+                                    <div class="item-after">X1&nbsp;&nbsp;<span>¥0</span></div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">会员等级优惠</div>
+                                    <div class="item-after"><span>- ¥3</span></div>
+                                </div>
+                                <div class="item-title-row">
+                                    <div class="item-title">积分兑换</div>
+                                    <div class="item-after"><span>- ¥1</span></div>
+                                </div>
+                                <div class="item-title-row">
+                                    <div class="item-title">优惠券</div>
+                                    <div class="item-after"><span>- ¥3</span></div>
+                                </div>
+                                <div class="item-title-row">
+                                    <div class="item-title">迎51满10减1活动</div>
+                                    <div class="item-after"><span>- ¥1</span></div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-subtitle">
+                                        订单&nbsp;<span class="fa-full">¥41</span>
+                                        &nbsp;-&nbsp;优惠&nbsp;<span class="fa-full">¥8</span>
+                                    </div>
+                                    <div class="item-after">
+                                        总计：<span>¥33</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content-normal">
+            <div class="content-block-title">订单状态：可取</div>
+            <p class="buttons-row">
+                <a href="complain.html" class="button button-fill button-danger button-max button-noradius">投诉</a>
+                <a href="#" class="button button-fill button-success button-max button-noradius">再来一单</a>
+            </p>
+            <div class="content-block-title">订单状态：已订</div>
+            <p class="buttons-row">
+                <a href="complain.html" class="button button-fill button-danger button-max button-noradius">投诉</a>
+                <a href="cancel.html" class="button button-fill button-danger button-max button-noradius">申请取消</a>
+                <a href="#" class="button button-fill button-success button-max button-noradius">再来一单</a>
+            </p>
+            <div class="content-block-title">订单状态：未付</div>
+            <p class="buttons-row">
+                <a href="complain.html" class="button button-fill button-danger button-max button-noradius">投诉</a>
+                <a href="#" class="button button-fill button-success button-max button-noradius">付款</a>
+                <a href="#" class="button button-fill button-success button-max button-noradius">再来一单</a>
+            </p>
+            <div class="content-block-title">订单状态：已取</div>
+            <p class="buttons-row">
+                <a href="complain.html" class="button button-fill button-danger button-max button-noradius">投诉</a>
+                <a href="evaluate.html" class="button button-fill button-success button-max button-noradius">评价</a>
+                <a href="#" class="button button-fill button-success button-max button-noradius">再来一单</a>
+            </p>
+            <div class="content-block-title">订单状态：退款中</div>
+        </div>
+        <div class="content-fixed"></div>
+    </div>
+    <!-- 工具栏 -->
+    <nav class="bar bar-tab">
+        <p class="buttons-row" style="margin: 0 0">
+            <a href="complain.html" class="button button-fill button-dark button-big fa-full">已提交</a>
+            <a href="#" class="button button-fill button-dark button-big"><i class="fa fa-long-arrow-right fa-full"></i> </a>
+            <a href="complain.html" class="button button-fill button-dark button-big fa-full">审核中</a>
+            <a href="#" class="button button-fill button-dark button-big"><i class="fa fa-long-arrow-right fa-full"></i> </a>
+            <a href="complain.html" class="button button-fill button-dark button-big">已退款</a>
+        </p>
+    </nav>
+</div>
+<script type="text/javascript" src="lib/light7.js"></script>
+<script type="text/javascript" src="lib/light7-city-picker.js"></script>
+<script type="text/javascript" src="lib/light7-swiper.js"></script>
+<script type="text/javascript" src="lib/light7-swipeout.js"></script>
+<script type="text/javascript" src="lib/i18n/cn.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>
